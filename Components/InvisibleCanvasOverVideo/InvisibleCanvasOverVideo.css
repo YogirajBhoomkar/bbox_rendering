@@ -1,0 +1,104 @@
+/* import img from '../images/mountains1.jpg' */
+
+.img{
+    margin: 40px;
+    max-width: 600px;
+}
+.foulbuttondiv{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    margin: 0 42px;
+}
+.ppp{
+    color: blue;
+}
+.aaaa{
+    /* background-image: url('../images/images/nlfa.jpeg'); */
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    height: 800;
+    border:1px solid black;
+}
+.your-canvas-wrapper{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.mainContainer{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.buttonDiv{
+    display: flex;
+    position: absolute;
+    top: 1.2%;
+    left:47%;
+    margin: 0 40px;
+
+}
+.buttonDiv button, input{
+    padding: 4px 10px;
+    margin: 5px 10px;
+
+}
+
+.leftContainer{
+    float: left;
+    min-width: 800px
+}
+
+.rightContainer{
+    float: right;
+}
+canvas{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    /* margin: 20px 50px; */
+    /* border: 2px solid black; */
+    z-index: 1;
+   
+} 
+video {
+    left: 51px;
+    position: absolute;
+    top: 12px;
+    height: 383px;
+    width: 663px;
+} 
+
+table{
+    position: absolute;
+    top: 600px;
+}
+.frame{
+    width: 50%;
+    margin: 60% 5%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+#impact-table{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    background-color: whitesmoke;
+    width: 50%;
+}
+#all-impact-table{
+     position: absolute;
+    top: 10%;
+    left: 50%;
+    background-color: whitesmoke;
+    width: 50%;
+}
+td{
+    padding: 20px;
+    border: 0.2px solid black;
+}
